@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GesSpy</title>
+    <style>
+        body {
+            font-family: Roboto, -apple-system, 'Helvetica Neue', 'Segoe UI', Arial, sans-serif;
+            background-image: url("static/photos/homeapp.jpg");
+            background-size: 100% 100%; /* Cover the entire screen */
+            background-attachment: fixed;
+            overflow: hidden;
+        }
+
+        .container {
+            position: sticky;
+            height: 100vh;
+        }
+
+        .box2 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: white;
+        }
+
+        .head1 {
+            font-size: 3.5em;
+            font-weight: bolder;
+            margin-bottom: 20px;
+        }
+
+        .para {
+            font-size: 2em;
+            font-weight: 300;
+            margin-bottom: 40px;
+        }
+
+        .btn1 {
+           margin-top: 400px;
+            outline: 0;
+                    grid-gap: 8px;
+                    align-items: center;
+                    background-color:#A0522D	;   
+                    color: #E5AA70;
+                    border: 0px solid #000;
+                    border-radius: 4px;
+                    cursor: pointer;
+                    display: inline-flex;
+                    font-size: 30px;
+                font-weight: 700;
+                    flex-shrink: 0;
+                    gap: 8px;
+                    justify-content: center;
+                    line-height: 1.5;
+                    overflow: hidden;
+                    padding: 12px 16px;
+                    text-decoration: none;
+                    text-overflow: ellipsis;
+                    transition: all .14s ease-out;
+                    white-space: nowrap;
+        }
+
+        .btn1:hover {
+                        box-shadow: 4px 4px 0 #E5AA70;
+                        transform: translate(-4px,-4px);
+        }
+
+        .btn1.focus-visible{
+                        outline-offset: 1px;
+                    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box2">
+            <button class="btn1" onclick="startForFree()">Get Started</button>
+        </div>
+    </div>
+
+    <script>
+        function startForFree() {
+            window.location.href = "/object_detection";
+        }
+    </script>
+</body>
+</html>

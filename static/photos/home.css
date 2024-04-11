@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* background-image: url("static/photos/Screenshot_2024-03-21_202050-removebg-preview.png"); */
+    background-size: cover; /* Cover the entire background */
+    background-repeat: no-repeat; /* Don't repeat the background image */
+    background-size: contain;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    font-weight: bolder;
+    color:black;
+    background-color: rgba(57, 150, 221, 0.5); /* Adjust the last value (0.5) for opacity */
+}
+.b{
+    position:fixed;
+    width: 100%; /* Or set a specific width */
+    max-width: 1200px; /* Or any maximum width you prefer */
+    margin: 0 auto; /* Center the container horizontally */
+    left: 39%;
+    top: 9%;
+    padding: 20px; /* Add padding to the container */
+    position: absolute;
+}
+.button {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the button horizontally and vertically */
+    padding: 10px 20px; /* Increase padding for better visual appearance */
+    border: 2px solid rgb(238, 230, 220); /* Add border to the button */
+    border-radius: 5px; /* Rounded corners */
+    background-color: rgb(12, 12, 70);
+    color: white;
+    font-size: large;
+    font-weight: bold; /* Increase font weight for emphasis */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
